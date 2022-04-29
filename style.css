@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(218, 28%, 15%) ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    padding: 40px 0px 0px 30px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a{
+    padding: 0px 20px;
+    text-decoration: none; 
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+li a:hover{
+    text-decoration: underline; 
+    font-weight: 700;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.heading{
+    font-size: 40px;
+  line-height: 1.5em;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.paragraph{
+    font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.cta{
+  border: none;
+  border-radius: 50px;
+  padding: 20px 100px;
+  color: rgb(240, 228, 228);
+  background: linear-gradient( to right, rgb(154, 227, 245), rgb(3, 181, 212) ) 
+}
+
+
+.bg-curvy-desktop{
+    position: relative; 
+    top: -250px;
+    z-index: -1;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-gap: 100px;
+    padding-left: 170px;
+    padding-right: 170px;
+    justify-items: center;
+    position: relative;
+    top: -250px;
+    background-color: hsl(218, 28%, 13%);
+}
+.services{
+    text-align: center;
+    padding: 25px, 25px, 25px, 25px;
+    font-size: 12px;
+}
+
+.title{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.text1{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    top: -250px;
+    background-color: hsl(218, 28%, 13%);
+}
+
+.img1{
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 100px;
+}
+
+.content1{
+    padding-top: 100px;
+}
+
+.heading1{
+    font-size: 30px;
+  line-height: 1.5em;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.paragraph1{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.paragraph2{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+
+.btn2{
+    display: flex;
+    border-bottom: 1.5px solid cyan;
+    width: 167px;
+}
+
+.btn2 a{
+    color: cyan;
+    text-decoration: none;
+}
+
+.btn2 :hover{
+    color: white;
+}
+
+.icon-arrow{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+.content2{
+    display: flex;
+    justify-content: flex-start;
+    height: 100px;
+}
+
+.box{
+    margin: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 30px;
+    margin-top: 100px;
+    background-color: hsl(219, 30%, 18%);
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    z-index: 1;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -250px;
+    text-align: justify;
+    background-color: hsl(218, 28%, 13%);
+}
+
+#profile {
+    width: 20%;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    top: 40px;
+}
+
+.info{
+    margin-left: -90px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+#name{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    top: 40px;
+    font-size: small;
+}
+
+#job{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    top: 40px;
+    font-size: x-small;
+}
+
+#quote{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    top: -70px;
+    right: -60px; 
+}
+
+.box1{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: hsl(219, 30%, 18%);
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin: 240px;
+    position: relative;
+    bottom: -120px;
+}
+
+#wrapper1{
+    background-color: hsl(218, 28%, 13%);
+    position: relative; 
+    top: -490px;
+}
+
+.content3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+#ctp{[]
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 20px; 
+}
+
+.heading2{
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: xx-large; 
+}
+
+#cta3{
+    border: none;
+    border-radius: 50px;
+    padding: 15px 25px;
+    color: rgb(240, 228, 228);
+    background: linear-gradient( to right, rgb(154, 227, 245), rgb(3, 181, 212) ) 
+}
+
+.ctp1{
+    border: none;
+    border-radius: 50px;
+    padding: 15px 300px 15px 15px;
+    margin-right: 25px;
+    color: gray;
+    background: white;
+}
+
+.paragraph3{
+    font-size: small;
+}
+
+footer{
+    width: 100%;
+    bottom: 0%;
+    background-color: hsl(216, 53%, 9%) ;
+    position: relative;
+    top: -730px;
+    z-index: -1;
+}
+
+.wow{
+    list-style-type: none;
+    width: 80%;
+    margin: auto;
+    padding-top: 280px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: white;
+}
+
+.logo1{
+   
+    position: relative;
+    top: -100px;
+    left: -60px; 
+}
+
+.icn{
+    position: relative;
+    left: -240px; 
+    top: -30px;
+
+}
+
+#txt{
+    position: relative;
+    top: -60px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+#phone{
+    position: relative;
+    left: -20px; 
+}
+
+li{
+    margin-bottom: 12px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+
+.social-icons .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+
+
